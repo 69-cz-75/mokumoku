@@ -27,8 +27,4 @@ class Event < ApplicationRecord
   def future?
     !past?
   end
-
-  def only_woman
-    self[:only_woman]
-  end
 end
